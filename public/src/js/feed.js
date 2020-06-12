@@ -154,7 +154,7 @@ function closeCreatePostModal() {
             track.stop();
         });
     }
-    setTimeout(() => {
+    setTimeout(function () {
         createPostArea.style.transform = 'translateY(100vh)';
     }, 1);
 
